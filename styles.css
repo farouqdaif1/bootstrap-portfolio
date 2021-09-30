@@ -5,7 +5,7 @@
 
 .navbar-brand {
     margin-left: 154px;
-    font-family: Inter, sans-serif;
+    font-family:'Inter', sans-serif;
     font-weight: 700;
   }
 
@@ -14,7 +14,7 @@
   }
 
   .nav-item .nav-link{
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
   }
 
@@ -32,7 +32,7 @@
   }
   
   #headline h1 {
-    font-family: Crete Round, sans-serif;
+    font-family: 'Crete Round', serif;
     font-weight: 400;
     font-size: 72px;
     line-height: 81.5px;
@@ -40,14 +40,14 @@
   }
   
   #headline h3 {
-    font-family: Inter, sans-serif;
+    font-family:'Inter', sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
   }
   
   #headline p{
-    font-family: Inter, sans-serif;
+    font-family:'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -64,3 +64,146 @@
     list-style: none;
     margin-top: 20px;  
   }
+  .container{
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+}
+  .box-title{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    font-family: 'Crete Round', serif;
+    margin-bottom: 114px;
+  }
+  .line {
+    height: 0;
+    border: 1px solid #212121;
+    width: 78%;
+  }
+  .card{
+    margin-bottom: 24px;
+  }
+ 
+
+  .image{
+  margin-left: 24px;
+  }
+  .card-body{
+    width: 50%;
+  }
+  .card-title{
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091E42;
+
+  }
+  .card-text{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091E42;
+
+  }
+  .list-group-item{
+    margin-left: 12px;
+    margin-bottom: 24px;
+    color: #091E42 !important;
+  }
+  .see {
+    height: 48px;
+    width: 124px;
+    padding: 12px;
+    border: none;
+    background: #ff6b00;
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-decoration: none;
+  }
+  .work{
+    margin-top: 24px;
+  }
+  .ct1{
+    color: #FFFFFF;
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .cx1{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .tags-tool {
+    border-radius: 0;
+    display: flex;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 0em;
+}
+  .tags-tool .pro {
+    border: 1px solid #8993a4;
+    margin-right: 12px;
+    padding: 10px 12px;
+    color: #fff;
+  }
+  .see-pro {
+    position: absolute;
+    left:0px ;
+    bottom: 0px;
+
+    width: 100%;
+    border: none;
+    background: #ff6b00;
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .see-pro:hover {
+    border: 1px solid #f55800;
+    background-color: #fff5e1;
+    color: #f55800;
+    transition: 0.5s;
+    
+  }
+  
+  .see-pro:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+  
+  
