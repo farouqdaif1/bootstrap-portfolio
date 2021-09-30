@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+.navbar-brand {
+    margin-left: 154px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+  }
+
+  .navbar-nav {
+      margin-right: 156px;
+  }
+
+  .nav-item .nav-link{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+  }
+
+  #header {
+    background-color: #1c1a19;
+    margin: 0;
+    background-image: url(Images/Illustration-header@2x.png);
+    background-repeat: no-repeat;
+    background-position: 112% 8%;
+    padding-bottom: 251px;
+  }
+
+  #headline {
+    margin-top: 192px;
+  }
+  
+  #headline h1 {
+    font-family: Crete Round, sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81.5px;
+    color: #f55800;
+  }
+  
+  #headline h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  #headline p{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 24px;
+  }
+  
+  #header-icons {
+    order: -1;
+    margin-top: 250px;
+    align-items: center;
+  }
+  
+  .header-icon-li {
+    list-style: none;
+    margin-top: 20px;  
+  }

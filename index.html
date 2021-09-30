@@ -5,17 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar bg-dark justify-content-between navbar-dark">
-        <a class="font-weight-bold nav-link text-white">Welcome</a>
-        <ul class="nav">
-            <li class="nav-item active"><a class="nav-link text-white">portfolio</a></li>
-            <li class="nav-item active"><a class="nav-link text-white">about</a></li>
-            <li class="nav-item active"><a class="nav-link text-white">contact</a></li>
-        </ul>
-    </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Welcome</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link text-white" href="#">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>          
+              <li class="nav-item"><a class="nav-link text-white"><i class="bi bi-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container-fluid" id="header">
+          <div class="row">
+            <div class="col-5" id="headline">
+                <h1>Hey There.<br>I'm Alex</h1>
+                <h3 class="text-white">I am a Software Developer</h3>
+                <p class="text-white">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+              </div>
+              <div class="col-1" id="header-icons">
+                <ul>
+                  <li class="header-icon-li"><a href="#"><img src="Images/github.png"></a></li>
+                  <li class="header-icon-li"><a href="#"><img src="Images/Linkedinicon.png"></a></li>
+                  <li class="header-icon-li"><a href="#"><img src="Images/angellist.png"></a></li>
+                  <li class="header-icon-li"><a href="#"><img src="Images/twitter.png"></a></li>
+                  <li class="header-icon-li"><a href="#"><img src="Images/Medium.png"></a></li>
+                </ul>
+              </div>
+          </div>
+      </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
