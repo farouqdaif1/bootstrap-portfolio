@@ -9,6 +9,10 @@
     font-weight: 700;
   }
 
+  ul {
+    list-style-type: none;
+  }
+
   .navbar-nav {
       margin-right: 156px;
   }
@@ -205,5 +209,60 @@
     background-color: #e05304;
     color: #f4f1f0;
   }
+
+  .aboutMe {
+    background: url(Images/Group1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 15%;
+  }
   
-  
+  .aboutMe h2 {
+    color: #f55800;
+    font-family: crete round, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+  }
+
+  .aboutp {
+    font-family: inter, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 17px;
+    font-family: inter, sans-serif;
+    font-weight: bold;
+    border: 0;
+    margin: 12px 0 0 0;
+  }
+
+  button:enabled {
+    background-color: #f55800;
+    color: #fff;
+  }
+
+  .aboutMe hr {
+    margin: 0 142px;
+  }
+
+  .sub1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutsub p {
+    font-family: inter, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 0;
+    padding-top: 32px;
+  }
+
+  .aboutsub .sub1 h4 {
+    font-family: inter, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+  }
