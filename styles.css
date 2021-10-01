@@ -266,3 +266,68 @@
     font-size: 32px;
     font-weight: normal;
   }
+
+  .form h2 {
+    font-family: inter, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .form {
+    background-color: #e5e5e5;
+    padding-top: 130px;
+  }
+
+  .form1 {
+    margin-bottom: 154px;
+  }
+
+.name1 {
+  border: solid;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background-color: #e5e5e5;
+  border-color: #dbd8d7;
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+  width: 588px;
+  padding: 14px;
+}
+
+.email {
+  border: solid;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background-color: #e5e5e5;
+  border-color: #dbd8d7;
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+  width: 588px;
+  padding: 14px;
+}
+
+.note {
+  border: 0.5px solid;
+  background-color: #fbf8f7;
+  border-color: #dbd8d7;
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+  width: 586px;
+  height: 100px;
+  margin: 24px 0 0 0;
+  padding: 14px;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
