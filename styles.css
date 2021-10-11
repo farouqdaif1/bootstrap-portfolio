@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+.navbar-brand {
+    margin-left: 154px;
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .navbar-nav {
+      margin-right: 156px;
+  }
+
+  .nav-item .nav-link{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+
+  #header {
+    background-color: #1c1a19;
+    margin: 0;
+    background-image: url(Images/Illustration-header@2x.png);
+    background-repeat: no-repeat;
+    background-position: 112% 8%;
+    padding-bottom: 251px;
+  }
+
+  #headline {
+    margin-top: 192px;
+  }
+  
+  #headline h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81.5px;
+    color: #f55800;
+  }
+  
+  #headline h3 {
+    font-family:'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  #headline p{
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 24px;
+  }
+  
+  #header-icons {
+    order: -1;
+    margin-top: 250px;
+    align-items: center;
+  }
+  
+  .header-icon-li {
+    list-style: none;
+    margin-top: 20px;  
+  }
+  .container{
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+}
+  .box-title{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    font-family: 'Crete Round', serif;
+    margin-bottom: 114px;
+  }
+  .line {
+    height: 0;
+    border: 1px solid #212121;
+    width: 78%;
+  }
+  .card{
+    margin-bottom: 24px;
+  }
+ 
+
+  .image{
+  margin-left: 24px;
+  }
+  .card-body{
+    width: 50%;
+  }
+  .card-title{
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091E42;
+
+  }
+  .card-text{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091E42;
+
+  }
+  .list-group-item{
+    margin-left: 12px;
+    margin-bottom: 24px;
+    color: #091E42 !important;
+  }
+  .see {
+    height: 48px;
+    width: 124px;
+    padding: 12px;
+    border: none;
+    background: #ff6b00;
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-decoration: none;
+  }
+  .work{
+    margin-top: 24px;
+  }
+  .ct1{
+    color: #FFFFFF;
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .cx1{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .tags-tool {
+    border-radius: 0;
+    display: flex;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 0em;
+}
+  .tags-tool .pro {
+    border: 1px solid #8993a4;
+    margin-right: 12px;
+    padding: 10px 12px;
+    color: #fff;
+  }
+  .see-pro {
+    position: absolute;
+    left:0px ;
+    bottom: 0px;
+
+    width: 100%;
+    border: none;
+    background: #ff6b00;
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .see-pro:hover {
+    border: 1px solid #f55800;
+    background-color: #fff5e1;
+    color: #f55800;
+    transition: 0.5s;
+    
+  }
+  
+  .see-pro:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .aboutMe {
+    background: url(Images/Group1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 15%;
+  }
+  
+  .aboutMe h2 {
+    color: #f55800;
+    font-family: crete round, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+  }
+
+  .aboutp {
+    font-family: inter, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 17px;
+    font-family: inter, sans-serif;
+    font-weight: bold;
+    border: 0;
+    margin: 12px 0 0 0;
+  }
+
+  button:enabled {
+    background-color: #f55800;
+    color: #fff;
+  }
+
+  .aboutMe hr {
+    margin: 0 142px;
+  }
+
+  .sub1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutsub p {
+    font-family: inter, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 0;
+    padding-top: 32px;
+  }
+
+  .aboutsub .sub1 h4 {
+    font-family: inter, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+  }
+
+  .form h2 {
+    font-family: inter, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .form {
+    background-color: #e5e5e5;
+    padding-top: 130px;
+  }
+
+  .form1 {
+    margin-bottom: 154px;
+  }
+
+.name1 {
+  border: solid;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background-color: #e5e5e5;
+  border-color: #dbd8d7;
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+  width: 588px;
+  padding: 14px;
+}
+
+.email {
+  border: solid;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background-color: #e5e5e5;
+  border-color: #dbd8d7;
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+  width: 588px;
+  padding: 14px;
+}
+
+.note {
+  border: 0.5px solid;
+  background-color: #fbf8f7;
+  border-color: #dbd8d7;
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+  width: 586px;
+  height: 100px;
+  margin: 24px 0 0 0;
+  padding: 14px;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
